@@ -7,7 +7,7 @@ interface counterState {
 
 const initialState: counterState = {
   click: 0,
-  status: true,
+  status: false,
 };
 
 export const counterSlice = createSlice({
@@ -20,9 +20,12 @@ export const counterSlice = createSlice({
     reset: (state) => {
       state.click = 0;
     },
+    disable: (state) => {
+      state.status = !state.status;
+    },
   },
 });
 
-export const { increment, reset } = counterSlice.actions;
+export const { increment, reset, disable } = counterSlice.actions;
 
 export default counterSlice.reducer;
