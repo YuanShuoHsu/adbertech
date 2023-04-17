@@ -1,0 +1,46 @@
+.scroll {
+  position: relative;
+  display: none;
+}
+
+.scroll.active {
+  display: block;
+}
+
+.scroll__container {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.scroll__container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.scroll__stickyContainer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  display: none;
+  overflow: hidden;
+}
+
+.scroll__stickyContainer.active {
+  display: block;
+}
+
+.scroll__stickyContainer img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.scroll__stickyContainer .circle {
+  position: absolute;
+  top: 0;
+}
