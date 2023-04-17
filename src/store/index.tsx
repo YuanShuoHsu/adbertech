@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-// import sidebarReducer from "./slice/sidebar";
+import counterReducer from "./slice/counter";
 
 export const store = configureStore({
   reducer: {
-    // sidebar: sidebarReducer,
+    counter: counterReducer,
   },
 });
 
