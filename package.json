@@ -1,5 +1,5 @@
 {
-  "name": "adbert",
+  "name": "adbertech",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +14,7 @@
     "@types/node": "^16.18.23",
     "@types/react": "^18.0.35",
     "@types/react-dom": "^18.0.11",
+    "firebase": "^9.19.1",
     "node-sass": "^8.0.0",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
