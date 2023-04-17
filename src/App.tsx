@@ -1,10 +1,20 @@
 import "./App.css";
-import Counter from "./components/Counter";
+import { Routes, Route, Navigate } from "react-router-dom";
+
+import Header from "./components/Header";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      {/* <Header/>
+      <QuestionOne />
+      <Counter /> */}
+      <Header/>
+      <Routes>
+        <Route path="" element={<Home />} />
+        <Route path="*" element={<Navigate replace to="" />} />
+      </Routes>
     </div>
   );
 }

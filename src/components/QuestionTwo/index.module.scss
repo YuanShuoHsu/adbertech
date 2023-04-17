@@ -1,0 +1,18 @@
+.questionTwo {
+  text-align: left;
+
+  &__titleList {
+    &-item {
+      line-height: 40px;
+      &:first-child {
+        list-style-type: none;
+      }
+    }
+  }
+
+  &__subList {
+    &-item {
+      line-height: 40px;
+    }
+  }
+}

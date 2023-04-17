@@ -26,7 +26,8 @@ export default function Counter() {
   return (
     <Box
       sx={{
-        height: "100vh",
+        // height: "100vh",
+        padding: "10px",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
