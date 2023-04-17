@@ -50,7 +50,7 @@ export default function Counter() {
           CLEAR
         </Button>
         <Button key="disable" onClick={handleDisable}>
-          {counterStatus ? "DISABLE" : "ABLE"}
+          {counterStatus ? "ABLE" : "DISABLE"}
         </Button>
       </ButtonGroup>
     </Box>
