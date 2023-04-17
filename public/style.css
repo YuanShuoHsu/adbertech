@@ -1,12 +1,12 @@
 .scroll {
   position: relative;
   display: none;
+  flex-direction: column;
+  align-items: center;
 }
 
 .scroll.active {
   display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .scroll__container {
