@@ -27,12 +27,15 @@
   bottom: 0;
   width: 80%;
   z-index: 2;
-  display: none;
   overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
 }
 
 .scroll__stickyContainer.active {
-  display: block;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .scroll__stickyContainer img {
